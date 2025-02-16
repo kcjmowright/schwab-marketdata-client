@@ -1,0 +1,32 @@
+# QuoteFuture
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**askMICId** | **String** | ask MIC code |  [optional]
+**askPrice** | **Double** | Current Best Ask Price |  [optional]
+**askSize** | **Integer** | Number of shares for ask |  [optional]
+**askTime** | **Long** | Last ask time in milliseconds since Epoch |  [optional]
+**bidMICId** | **String** | bid MIC code |  [optional]
+**bidPrice** | **Double** | Current Best Bid Price |  [optional]
+**bidSize** | **Integer** | Number of shares for bid |  [optional]
+**bidTime** | **Long** | Last bid time in milliseconds since Epoch |  [optional]
+**closePrice** | **Double** | Previous day&#x27;s closing price |  [optional]
+**futurePercentChange** | **Double** | Net Percentage Change |  [optional]
+**highPrice** | **Double** | Day&#x27;s high trade price |  [optional]
+**lastMICId** | **String** | Last MIC Code |  [optional]
+**lastPrice** | **Double** |  |  [optional]
+**lastSize** | **Integer** | Number of shares traded with last trade |  [optional]
+**lowPrice** | **Double** | Day&#x27;s low trade price |  [optional]
+**mark** | **Double** | Mark price |  [optional]
+**netChange** | **Double** | Current Last-Prev Close |  [optional]
+**openInterest** | **Integer** | Open interest |  [optional]
+**openPrice** | **Double** | Price at market open |  [optional]
+**quoteTime** | **Long** | Last quote time in milliseconds since Epoch |  [optional]
+**quotedInSession** | **Boolean** | quoted during trading session |  [optional]
+**securityStatus** | **String** | Status of security |  [optional]
+**settleTime** | **Long** | settlement time in milliseconds since Epoch |  [optional]
+**tick** | **Double** | Tick Price |  [optional]
+**tickAmount** | **Double** | Tick Amount |  [optional]
+**totalVolume** | **Long** | Aggregated shares traded throughout the day, including pre/post market hours. |  [optional]
+**tradeTime** | **Long** | Last trade time in milliseconds since Epoch |  [optional]
